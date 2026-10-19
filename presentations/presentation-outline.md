@@ -1,6 +1,6 @@
 # Executive Presentation | Slide-by-Slide Outline
 
-**Presentation file:** `home_depot_financial_analysis_presentation.pptx` — **prepared externally but pending binary repository upload**.
+**Presentation file:** [home_depot_financial_analysis_presentation.pptx](home_depot_financial_analysis_presentation.pptx) — uploaded, ZIP integrity tested, and 10 slides plus 10 speaker-note pages confirmed.
 
 Ten-slide speaking deck designed for approximately 7–10 minutes.
 

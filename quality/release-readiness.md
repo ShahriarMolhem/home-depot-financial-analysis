@@ -1,6 +1,6 @@
 # Portfolio Release Review — FY2025-Based Analysis
 
-**Status:** Pending final owner review and binary upload. **Do not switch this repository to Public yet.**
+**Status:** Both binary files uploaded and their ZIP integrity and identical Git blob hashes verified. Final owner review and public-release approval are still pending. **Keep this repository Private until then.**
 
 ## Checks completed in the working Excel model
 
@@ -16,9 +16,9 @@
 
 ## Release gates still outstanding
 
-- [ ] Upload `models/home_depot_financial_model_with_dcf.xlsx` to this repository
-- [ ] Upload `presentations/home_depot_financial_analysis_presentation.pptx` to this repository
-- [ ] Confirm binary files in GitHub open correctly and contain all 10 Excel tabs / 10 slides
+- [x] Upload `models/home_depot_financial_model_with_dcf.xlsx` to this repository
+- [x] Upload `presentations/home_depot_financial_analysis_presentation.pptx` to this repository
+- [x] Confirm GitHub objects match the project-developed binaries exactly via SHA-1 Git blob checks; both files are structurally valid ZIP packages; workbook has 10 named worksheets and deck has 10 slides with 10 speaker-note pages. This does not substitute for opening and visually reviewing the files on the owner's device.
 - [ ] Final human review of sources, modeling assumptions, workbook display and interpretive text
 - [ ] Confirm author understands enough to describe the analysis in an internship interview
 - [ ] Obtain owner approval before changing visibility to Public
@@ -30,7 +30,7 @@ Arithmetic reconciliation is not a GAAS audit, professional valuation engagement
 
 ## Files prepared outside GitHub
 
-- `home_depot_financial_model_with_dcf.xlsx` (Excel with ten sheets)
-- `home_depot_financial_analysis_presentation.pptx` (10 slides including speaker notes)
+- [Excel model](../models/home_depot_financial_model_with_dcf.xlsx) (10 sheets; now inside GitHub)
+- [Presentation](../presentations/home_depot_financial_analysis_presentation.pptx) (10 slides + speaker notes; now inside GitHub)
 
-These need binary upload. Until then, do **not** advertise this GitHub repo as a fully downloadable portfolio package.
+Both files are now available in the private repository. Do **not** advertise the project as a public portfolio until the owner has reviewed and authorized public release.

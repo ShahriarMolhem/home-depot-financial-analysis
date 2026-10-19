@@ -1,42 +1,65 @@
-# The Home Depot | Financial Performance & Valuation Analysis
+# The Home Depot | Financial Performance & Valuation
 
 **Independent undergraduate finance portfolio project**  
 **Shahriar Molhem** | BBA Finance | University of Georgia, Terry College of Business
 
-> **Project status: In development.** This repository does **not** yet contain a completed valuation or investment recommendation. Conclusions will be published only after model checks and source reconciliation.
+> **Status: Financial analysis and project files completed; private final owner review and public-release approval pending.** This is an undergraduate case study, not a CPA/audit opinion, professional appraisal, issuer report or investment recommendation.
 
-## Research question
-**How have Home Depot's profitability, capital efficiency, and cash generation evolved across fiscal 2021–2025, and what would a transparent, assumption-driven valuation suggest?**
+## The headline
 
-The study uses public SEC filings and the company's Investor Relations materials. All reported figures will be linked to primary sources, and financial estimates will be clearly labeled as analyst assumptions.
+Between fiscal 2021 and fiscal 2025, Home Depot's reported net sales increased **8.9%**, while reported operating earnings fell **9.3%**. Operating margin decreased from **15.2% to 12.7%**. A simplified FY2025-date FCFF DCF exercise produces **$265.54/share** under assumptions of 8.0% WACC and 2.5% perpetual growth. The valuation is **not** a current market-price target and changes considerably when assumptions change.
 
-## Intended deliverables
-- **Five-year historical analysis (FY2021–FY2025):** sales growth, gross/operating/net margins, working capital, operating cash flow, capital expenditures, free cash flow, and selected returns.
-- **Excel workbook:** original source values, formulas, ratio outputs, valuation assumptions, scenario cases, and built-in checks.
-- **Valuation exercise:** a transparent, educational discounted cash flow (DCF) model with sensitivity analysis, not a price target or investment advice.
-- **Markdown reports:** executive summary, sources, methodology, results, risks, and limitations.
-- **Presentation (.pptx):** 6–10 slides explaining the question, evidence, findings, and limitations.
+## Start here
 
-## Navigation
-| Document | What it contains |
+| Resource | What it offers |
 | --- | --- |
-| [Project scope](reports/project-scope.md) | Questions, analytical boundaries, and milestones |
-| [Data source register](data/source-register.md) | SEC/issuer filing links and tracing rules |
-| [Methodology](reports/methodology.md) | Metrics, formulas, valuation framework, comparability |
-| [Quality checklist](quality/validation-checklist.md) | Financial reconciliation and publication gates |
+| [Executive summary](reports/executive-summary.md) | Recruiter-friendly overview of the main findings |
+| [Historical financial performance](reports/financial-performance.md) | Five-year reported sales, earnings and cash flow analysis |
+| [DCF valuation and scenarios](reports/valuation-and-scenarios.md) | Forecast assumptions, per-share valuation and WACC/g grid |
+| [Historical source CSV](data/historical-financials.csv) | SEC-reported fiscal-year financial statement figures |
+| [Model specification](models/valuation-model-specification.md) | Reproducible DCF methods and formulas |
+| [Data source register](data/source-register.md) | Official SEC filings and extraction rules |
+| [Presentation outline](presentations/presentation-outline.md) | Ten-slide speaker deck structure |
+| [Full presentation speaking script](presentations/slide-by-slide-speaking-script.md) | Slide-by-slide, first-person, 8–10-minute rehearsal script |
+| [Interview brief](reports/interview-brief.md) | Talking points and limitations for recruiters |
+| [Validation checklist](quality/release-readiness.md) | Completed formula checks and publication blockers |
 
-## Development workflow
-Work is organized into meaningful branches and pull requests:
-1. **PR 1 — Project foundation and source register** (this stage).
-2. **PR 2 — Historical dataset, Excel model, and financial analysis.**
-3. **PR 3 — Valuation, sensitivity tests, and written results with validation.**
-4. **PR 4 — Executive presentation, publishing polish, and final review.**
+## Deliverables and availability
 
-A PR is a review checkpoint, not a claim that the underlying analytical work has already been completed.
+| Deliverable | Status |
+| --- | --- |
+| Source-linked research reports (Markdown) | Available in repository |
+| Fiscal 2021–2025 input data (CSV) | Available in repository |
+| Historical and DCF calculation methodology | Available in repository |
+| [Excel model (10 worksheets)](models/home_depot_financial_model_with_dcf.xlsx) | **Uploaded to repository; ZIP integrity and file identity verified** |
+| [PowerPoint presentation (10 slides + speaker notes)](presentations/home_depot_financial_analysis_presentation.pptx) | **Uploaded to repository; ZIP integrity and file identity verified** |
 
-## Scope and integrity
-This is an **independent undergraduate learning/portfolio project**, not an external audit, expert valuation opinion, professional accounting service, or claim of access to nonpublic company data. Historical facts, calculations, and forward-looking assumptions will be separated explicitly. AI may assist drafting, coding and quality checks; numerical accuracy and the final presentation must be reviewed by the portfolio owner before being presented as his work.
+**Publication gate:** Both binary files have been uploaded and file-integrity checked. Keep this repository Private until its owner has reviewed the materials and explicitly approves public release. No independent CPA/audit or professional valuation certification is implied.
 
-**Data cutoff for historical annual financials:** Fiscal 2025 (year ended February 1, 2026). Any later interim disclosures will be labeled separately.
+## Project workflow
 
-**Sources:** [The Home Depot Investor Relations](https://ir.homedepot.com/financial-reports/annual-reports/recent) · [SEC EDGAR FY2025 Form 10-K](https://www.sec.gov/Archives/edgar/data/354950/000162828026019436/hd-20260201.htm)
+- **PR #1:** Research scope, methodology and SEC source register.
+- **PR #2:** Extracted five-year financial statements, historical analysis and reconciliation.
+- **PR #3:** Educational FCFF model specification, base-case valuation and sensitivity analysis.
+- **PR #4:** Executive summary, interview brief, presentation documentation and final publication checks.
+
+## Technical approach
+
+- Primary data: public Form 10-K reporting for FY2021–FY2025.
+- Historic metrics: growth, profitability, selected balance-sheet efficiency and operating cash flow.
+- Illustrative DCF: after-tax EBIT + noncash D&A − capex − modeled increase in operating working capital.
+- Forecast inputs: author-selected assumptions, clearly separated from reported facts.
+- Validation: reconciliation tests, source trace register and scenario consistency controls.
+- Communication: executive narrative and 10-slide speaker deck appropriate to a BBA finance student.
+
+## Critical limitations
+
+- FY2024 had 53 weeks, unlike adjacent 52-week years.
+- Acquisitions (SRS in FY2024 and GMS in FY2025) limit simple year-over-year organic comparisons.
+- WACC of 8% and g of 2.5% are illustrative, not derived current-market estimates.
+- The model uses a simplified enterprise-to-equity bridge; leases and certain other potential adjustments are not exhaustively treated.
+- About 77.6% of the calculated enterprise value is discounted terminal value.
+
+**Source:** [Home Depot FY2025 SEC Form 10-K](https://www.sec.gov/Archives/edgar/data/354950/000162828026019436/hd-20260201.htm) · [Home Depot Investor Relations](https://ir.homedepot.com/financial-reports/annual-reports/recent)
+
+**Disclosure:** Independent student analysis, with AI-assisted drafting and calculation support; not a third-party-verified professional valuation. Historical results should be differentiated from model assumptions and interpreted with disclosures.

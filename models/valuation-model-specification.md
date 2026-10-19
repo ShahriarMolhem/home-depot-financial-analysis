@@ -91,7 +91,7 @@ The companion workbook prepared for this PR includes:
 - `SENSITIVITY`
 - `DCF CHECKS`
 
-**Attachment pending:** The workbook has been created and locally checked, but has not yet been attached as a binary GitHub repository file. This Markdown document is a transparent reconstruction specification, **not a replacement for the Excel file**.
+**Workbook uploaded:** [Download the formula-driven Excel model](home_depot_financial_model_with_dcf.xlsx). This Markdown document provides a transparent reconstruction specification and accompanying assumptions, rather than replacing the model.
 
 ## Modeling risk
 The current model is an educational, simplified DCF. It does not separately model future M&A, leases, market-based WACC components, or share issuance/repurchases. Its purpose is to demonstrate a coherent and explicit analytical process, **not to claim certified intrinsic value**.

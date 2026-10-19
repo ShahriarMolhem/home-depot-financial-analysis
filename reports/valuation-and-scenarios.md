@@ -115,7 +115,7 @@ The base-case value is highlighted in bold at 8.0% WACC / 2.5% perpetual growth.
 
 ## Reproducibility and quality controls
 
-The workbook `home_depot_financial_model_with_dcf.xlsx` was prepared as the Excel companion deliverable for this PR. Until uploaded to this repository, the **download is available from the project-development conversation**, rather than as an in-repository asset. A formula-readable scenario and valuation summary appear in [valuation-model-specification.md](../models/valuation-model-specification.md).
+The workbook [home_depot_financial_model_with_dcf.xlsx](../models/home_depot_financial_model_with_dcf.xlsx) is now available in this repository. The formula-readable scenario and valuation summary are also documented in [valuation-model-specification.md](../models/valuation-model-specification.md).
 
 Calculated crosschecks returned **zero differences** for the base-case value versus the sensitivity grid center, FY2025 EBIT margin reconciliation, cash-flow D&A, capital expenditures, net debt bridge, and source-trace years. Arithmetic controls validate internal consistency, not the economic accuracy of forecasts.
 

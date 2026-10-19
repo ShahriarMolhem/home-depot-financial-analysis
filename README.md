@@ -3,7 +3,7 @@
 **Independent undergraduate finance portfolio project**  
 **Shahriar Molhem** | BBA Finance | University of Georgia, Terry College of Business
 
-> **Status: Financial analysis complete; final publication review and binary repository uploads pending.** This is an undergraduate case study, not a CPA/audit opinion, professional appraisal, issuer report or investment recommendation.
+> **Status: Financial analysis and project files completed; private final owner review and public-release approval pending.** This is an undergraduate case study, not a CPA/audit opinion, professional appraisal, issuer report or investment recommendation.
 
 ## The headline
 
@@ -30,10 +30,10 @@ Between fiscal 2021 and fiscal 2025, Home Depot's reported net sales increased *
 | Source-linked research reports (Markdown) | Available in repository |
 | Fiscal 2021–2025 input data (CSV) | Available in repository |
 | Historical and DCF calculation methodology | Available in repository |
-| Excel model (10 worksheets) | **Prepared; binary repository upload pending** |
-| PowerPoint presentation (10 slides + speaker notes) | **Prepared; binary repository upload pending** |
+| [Excel model (10 worksheets)](models/home_depot_financial_model_with_dcf.xlsx) | **Uploaded to repository; ZIP integrity and file identity verified** |
+| [PowerPoint presentation (10 slides + speaker notes)](presentations/home_depot_financial_analysis_presentation.pptx) | **Uploaded to repository; ZIP integrity and file identity verified** |
 
-**Do not distribute this GitHub page as the final portfolio yet**: the workbook and slide deck have to be uploaded, checked on GitHub, and approved by the portfolio owner.
+**Publication gate:** Both binary files have been uploaded and file-integrity checked. Keep this repository Private until its owner has reviewed the materials and explicitly approves public release. No independent CPA/audit or professional valuation certification is implied.
 
 ## Project workflow
 

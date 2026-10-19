@@ -20,6 +20,7 @@ Between fiscal 2021 and fiscal 2025, Home Depot's reported net sales increased *
 | [Model specification](models/valuation-model-specification.md) | Reproducible DCF methods and formulas |
 | [Data source register](data/source-register.md) | Official SEC filings and extraction rules |
 | [Presentation outline](presentations/presentation-outline.md) | Ten-slide speaker deck structure |
+| [Full presentation speaking script](presentations/slide-by-slide-speaking-script.md) | Slide-by-slide, first-person, 8–10-minute rehearsal script |
 | [Interview brief](reports/interview-brief.md) | Talking points and limitations for recruiters |
 | [Validation checklist](quality/release-readiness.md) | Completed formula checks and publication blockers |
 

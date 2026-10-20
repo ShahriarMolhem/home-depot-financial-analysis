@@ -1,65 +1,38 @@
-# The Home Depot | Financial Performance & Valuation
+# Home Depot | Financial Performance & Valuation
 
-**Independent undergraduate finance portfolio project**  
-**Shahriar Molhem** | BBA Finance | University of Georgia, Terry College of Business
+**Shahriar Molhem** · BBA Finance, University of Georgia — Terry College of Business  
+**Skills practiced:** Financial statement analysis, Excel modeling, discounted cash flow (DCF), sensitivity analysis
 
-> **Status: Financial analysis and project files completed; private final owner review and public-release approval pending.** This is an undergraduate case study, not a CPA/audit opinion, professional appraisal, issuer report or investment recommendation.
+## Why this project?
 
-## The headline
+I wanted to understand why a company could grow its sales without growing its operating profit. I used Home Depot's FY2021–FY2025 SEC filings to explore the difference, then built a simple valuation model to see how much the answer changes when the assumptions change.
 
-Between fiscal 2021 and fiscal 2025, Home Depot's reported net sales increased **8.9%**, while reported operating earnings fell **9.3%**. Operating margin decreased from **15.2% to 12.7%**. A simplified FY2025-date FCFF DCF exercise produces **$265.54/share** under assumptions of 8.0% WACC and 2.5% perpetual growth. The valuation is **not** a current market-price target and changes considerably when assumptions change.
+## Key findings
 
-## Start here
+- **Sales grew while operating profit declined.** Revenue went from **$151.2 billion** in FY2021 to **$164.7 billion** in FY2025 (+8.9%); operating income went from **$23.0 billion** to **$20.9 billion** (−9.3%).
+- **Margins tightened.** Operating margin fell from **15.2%** to **12.7%** over the same period.
+- **Cash flow offered another perspective.** FY2025 operating cash flow was **$16.3 billion**. After **$3.7 billion** of capital expenditures, simplified free cash flow was **$12.6 billion**.
+- **The valuation depends heavily on assumptions.** My illustrative five-year FCFF model yields **$265.54 per share** using **8.0% WACC** and **2.5% perpetual growth**; **77.6%** of estimated enterprise value comes from the terminal value.
 
-| Resource | What it offers |
+The DCF is a *hypothetical model outcome as of FY2025 year-end*, **not** a current price target. FY2024 also contained 53 weeks, and acquisitions affect comparisons.
+
+## Project files
+
+| Resource | What you'll find |
 | --- | --- |
-| [Executive summary](reports/executive-summary.md) | Recruiter-friendly overview of the main findings |
-| [Historical financial performance](reports/financial-performance.md) | Five-year reported sales, earnings and cash flow analysis |
-| [DCF valuation and scenarios](reports/valuation-and-scenarios.md) | Forecast assumptions, per-share valuation and WACC/g grid |
-| [Historical source CSV](data/historical-financials.csv) | SEC-reported fiscal-year financial statement figures |
-| [Model specification](models/valuation-model-specification.md) | Reproducible DCF methods and formulas |
-| [Data source register](data/source-register.md) | Official SEC filings and extraction rules |
-| [Presentation outline](presentations/presentation-outline.md) | Ten-slide speaker deck structure |
-| [Full presentation speaking script](presentations/slide-by-slide-speaking-script.md) | Slide-by-slide, first-person, 8–10-minute rehearsal script |
-| [Interview brief](reports/interview-brief.md) | Talking points and limitations for recruiters |
-| [Validation checklist](quality/release-readiness.md) | Completed formula checks and publication blockers |
+| [Executive summary](reports/executive-summary.md) | Main findings in plain English |
+| [Historical financial performance](reports/financial-performance.md) | Five-year sales, earnings, and cash flow |
+| [DCF analysis and sensitivity](reports/valuation-and-scenarios.md) | Forecast assumptions, value bridge, and uncertainty |
+| [Excel workbook](models/home_depot_financial_model_with_dcf.xlsx) | Historical ratios, DCF formulas, checks, and scenario tables |
+| [Historical data](data/historical-financials.csv) · [SEC sources](data/source-register.md) | Reported inputs and their original filings |
+| [Presentation](presentations/home_depot_financial_analysis_presentation.pptx) | Ten-slide overview |
+| [Slide-by-slide speaking script](presentations/slide-by-slide-speaking-script.md) | English practice transcript for the deck |
+| [Methodology](reports/methodology.md) · [Review notes](quality/release-readiness.md) | Assumptions, controls, and remaining limitations |
 
-## Deliverables and availability
+## How I worked through it
 
-| Deliverable | Status |
-| --- | --- |
-| Source-linked research reports (Markdown) | Available in repository |
-| Fiscal 2021–2025 input data (CSV) | Available in repository |
-| Historical and DCF calculation methodology | Available in repository |
-| [Excel model (10 worksheets)](models/home_depot_financial_model_with_dcf.xlsx) | **Uploaded to repository; ZIP integrity and file identity verified** |
-| [PowerPoint presentation (10 slides + speaker notes)](presentations/home_depot_financial_analysis_presentation.pptx) | **Uploaded to repository; ZIP integrity and file identity verified** |
+I started with the reported financial statements, calculated trends and cash flow measures, and used forecast assumptions to model unlevered free cash flow. I then tested how changing WACC and terminal growth affects the implied equity value. The [valuation specification](models/valuation-model-specification.md) shows the underlying logic.
 
-**Publication gate:** Both binary files have been uploaded and file-integrity checked. Keep this repository Private until its owner has reviewed the materials and explicitly approves public release. No independent CPA/audit or professional valuation certification is implied.
+**Primary source:** [Home Depot FY2025 Form 10-K](https://www.sec.gov/Archives/edgar/data/354950/000162828026019436/hd-20260201.htm).
 
-## Project workflow
-
-- **PR #1:** Research scope, methodology and SEC source register.
-- **PR #2:** Extracted five-year financial statements, historical analysis and reconciliation.
-- **PR #3:** Educational FCFF model specification, base-case valuation and sensitivity analysis.
-- **PR #4:** Executive summary, interview brief, presentation documentation and final publication checks.
-
-## Technical approach
-
-- Primary data: public Form 10-K reporting for FY2021–FY2025.
-- Historic metrics: growth, profitability, selected balance-sheet efficiency and operating cash flow.
-- Illustrative DCF: after-tax EBIT + noncash D&A − capex − modeled increase in operating working capital.
-- Forecast inputs: author-selected assumptions, clearly separated from reported facts.
-- Validation: reconciliation tests, source trace register and scenario consistency controls.
-- Communication: executive narrative and 10-slide speaker deck appropriate to a BBA finance student.
-
-## Critical limitations
-
-- FY2024 had 53 weeks, unlike adjacent 52-week years.
-- Acquisitions (SRS in FY2024 and GMS in FY2025) limit simple year-over-year organic comparisons.
-- WACC of 8% and g of 2.5% are illustrative, not derived current-market estimates.
-- The model uses a simplified enterprise-to-equity bridge; leases and certain other potential adjustments are not exhaustively treated.
-- About 77.6% of the calculated enterprise value is discounted terminal value.
-
-**Source:** [Home Depot FY2025 SEC Form 10-K](https://www.sec.gov/Archives/edgar/data/354950/000162828026019436/hd-20260201.htm) · [Home Depot Investor Relations](https://ir.homedepot.com/financial-reports/annual-reports/recent)
-
-**Disclosure:** Independent student analysis, with AI-assisted drafting and calculation support; not a third-party-verified professional valuation. Historical results should be differentiated from model assumptions and interpreted with disclosures.
+*This is an undergraduate project based on public filings, with AI-assisted drafting and calculation support. It is not an audit, professional appraisal, or investment recommendation. The assumptions and source values require the author's understanding and review.*

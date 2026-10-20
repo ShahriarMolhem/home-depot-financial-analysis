@@ -2,7 +2,7 @@
 
 **Independent BBA Finance student analysis** · Shahriar Molhem, University of Georgia  
 **Historical period:** FY2021–FY2025 · **Units:** USD millions except per-share data.  
-**Status:** Historical analysis only. A forward-looking DCF is **not** yet complete; this is not an investment recommendation.
+**Scope:** This report covers historical results only. The separate [illustrative DCF analysis](valuation-and-scenarios.md) is complete; neither report is an investment recommendation.
 
 ## Executive observations
 

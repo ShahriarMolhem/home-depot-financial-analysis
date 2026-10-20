@@ -174,3 +174,16 @@ Thank you for listening. I'm happy to walk through the workbook, discuss the ass
 3. **Round 3 — Interview:** Present without reading, then explain three questions: *Why did margins fall? How does FCFF differ from operating cash flow minus capex? Why is terminal value so important?*
 
 **Integrity note:** These are practice words, not evidence of independent expertise. Before claiming personal modeling experience, make sure you can reproduce and explain the calculations and identify where AI-assisted work was used.
+
+## Delivery notes: make this sound like you
+
+The full script above is a reference, not something to memorize word for word. The strongest version of this presentation sounds like a student walking someone through decisions and trade-offs.
+
+- **After slide 3:** “So my next question was whether the higher sales were actually translating into better margins.”
+- **After slide 5:** “That cash flow comparison is what led me to build a forward-looking scenario, rather than relying on earnings alone.”
+- **Before slide 7:** “The model gives me a number, but the sensitivity is just as important as the number itself.”
+- **Before slide 9:** “This is where I'd be careful if I were presenting the model in an investment discussion.”
+
+**Three follow-up questions to rehearse:** Why does FY2024 having 53 weeks matter? What is the difference between OCF minus capex and unlevered FCFF? What happens if you raise WACC by one percentage point?
+
+**How to answer when you don't know:** “I haven't modeled that adjustment yet. I'd check the corresponding 10-K note and update the assumptions before drawing a conclusion.”

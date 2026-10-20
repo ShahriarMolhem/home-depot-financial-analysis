@@ -21,8 +21,8 @@ A large part of the calculated present value comes from terminal FCFF. A 1.5 per
 ## Review still required before public release
 - [ ] Confirm acquisition effects and comparability discussion is sufficiently sourced.
 - [ ] Check whether FY2025 balance-sheet classification of all operating NWC components is consistent with the annual report.
-- [ ] Upload the workbook binary file to the GitHub repository.
-- [ ] Prepare a short, accurate PowerPoint presentation in PR4.
+- [x] The Excel workbook has been uploaded and linked from the main README.
+- [x] The 10-slide PowerPoint and its accompanying speaking script are present in the repository.
 - [ ] Owner should understand the main assumptions, model weaknesses and interpretation before describing it as personal work.
 
 ## Disclosure statement
